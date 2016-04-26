@@ -8,11 +8,12 @@ function hook_emojione_render_includes($data)
 
 function hook_emojione_render_footer($data)
 {
-    $data['js_files'][] = PluginManager::$PLUGINS_PATH . '/emojione/js/emojione.min.js';
     $data['js_files'][] = PluginManager::$PLUGINS_PATH . '/emojione/js/emojione.js';
+    $data['js_files'][] = PluginManager::$PLUGINS_PATH . '/emojione/js/emojione.min.js';
 
-    /* Uncomment the two lines below to use the autocomplete function */
-//    $data['js_files'][] = PluginManager::$PLUGINS_PATH . '/emojione/js/textcomplete.min.js';
+    /* Uncomment the three lines below to use the autocomplete function */
+//    $data['js_files'][] = PluginManager::$PLUGINS_PATH . '/emojione/js/zepto.min.js';
+//    $data['js_files'][] = PluginManager::$PLUGINS_PATH . '/emojione/js/jquery.textcomplete.min.js';
 //    $data['js_files'][] = PluginManager::$PLUGINS_PATH . '/emojione/js/autocomplete.js';
 
     return $data;
