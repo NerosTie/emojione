@@ -21,7 +21,7 @@ emojione.ascii = false; /* change to 'true' to have ASCII conversion */
 
 The autocomplete function is deactivated by default.  
 http://git.emojione.com/demos/2.1.4/autocomplete.html  
-To activated it, edit `emojione.php`:
+To activate it, edit `emojione.php`:
 ```
     /* Uncomment the two lines below to use the autocomplete function */
 //    $data['js_files'][] = PluginManager::$PLUGINS_PATH . '/emojione/js/textcomplete.min.js';
