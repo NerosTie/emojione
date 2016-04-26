@@ -1,13 +1,19 @@
 <?php
 function hook_emojione_render_includes($data)
 {
-    $data['css_files'][] = PluginManager::$PLUGINS_PATH . '/emojione/emojione.css';
+    $data['css_files'][] = PluginManager::$PLUGINS_PATH . '/emojione/css/emojione.css';
+    $data['css_files'][] = PluginManager::$PLUGINS_PATH . '/emojione/css/autocomplete.css';
     return $data;
 }
 
 function hook_emojione_render_footer($data)
 {
-    $data['js_files'][] = 'https://cdn.jsdelivr.net/emojione/2.1.4/lib/js/emojione.min.js';
-    $data['js_files'][] = PluginManager::$PLUGINS_PATH . '/emojione/emojione.js';
+    $data['js_files'][] = PluginManager::$PLUGINS_PATH . '/emojione/js/emojione.min.js';
+    $data['js_files'][] = PluginManager::$PLUGINS_PATH . '/emojione/js/emojione.js';
+
+    /* Uncomment the two lines below to use the autocomplete function */
+//    $data['js_files'][] = PluginManager::$PLUGINS_PATH . '/emojione/js/textcomplete.min.js';
+//    $data['js_files'][] = PluginManager::$PLUGINS_PATH . '/emojione/js/autocomplete.js';
+
     return $data;
 }
