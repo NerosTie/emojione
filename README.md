@@ -2,4 +2,9 @@
 Add colorful emojis to your Shaarli
 
 # Installation
-Put the folder `emojione` in the folder `plugins` and activate the new plugin.
+```
+cd plugins
+git clone https://github.com/NerosTie/emojione
+```
+
+Then activate the new plugin.
