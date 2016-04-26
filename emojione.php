@@ -11,4 +11,3 @@ function hook_emojione_render_footer($data)
     $data['js_files'][] = PluginManager::$PLUGINS_PATH . '/emojione/emojione.js';
     return $data;
 }
- 
