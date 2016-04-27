@@ -23,8 +23,11 @@ The autocomplete function is deactivated by default.
 http://git.emojione.com/demos/2.1.4/autocomplete.html  
 To activate it, edit `emojione.php`:
 ```
-    /* Uncomment the three lines below to use the autocomplete function */
-//    $data['js_files'][] = PluginManager::$PLUGINS_PATH . '/emojione/js/zepto.min.js';
-//    $data['js_files'][] = PluginManager::$PLUGINS_PATH . '/emojione/js/textcomplete.min.js';
-//    $data['js_files'][] = PluginManager::$PLUGINS_PATH . '/emojione/js/autocomplete.js';
+/* 
+* Uncomment the three lines below to use the autocomplete function.
+* If your theme use jquery, let the first line commented.
+*/
+#    $data['js_files'][] = PluginManager::$PLUGINS_PATH . '/emojione/js/zepto.min.js';
+#    $data['js_files'][] = PluginManager::$PLUGINS_PATH . '/emojione/js/textcomplete.min.js';
+#    $data['js_files'][] = PluginManager::$PLUGINS_PATH . '/emojione/js/autocomplete.js';
 ```
