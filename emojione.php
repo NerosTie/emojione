@@ -11,7 +11,7 @@ function hook_emojione_render_footer($data)
     $data['js_files'][] = PluginManager::$PLUGINS_PATH . '/emojione/js/emojione.min.js';
     $data['js_files'][] = PluginManager::$PLUGINS_PATH . '/emojione/js/emojione.js';
 
-/* 
+/*
 * Uncomment the three lines below to use the autocomplete function.
 * If your theme use jquery, let the first line commented.
 */
