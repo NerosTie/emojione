@@ -14,7 +14,7 @@ Then activate the new plugin.
 # Options
 ASCII Smiley is deactivated by default.  
 http://git.emojione.com/demos/2.1.4/ascii-smileys.html  
-To activate it, edit `emojione.js`:
+To activate it, edit `js/emojione.js`:
 ```
 emojione.ascii = false; /* change to 'true' to have ASCII conversion */
 ```
