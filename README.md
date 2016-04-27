@@ -23,7 +23,7 @@ The autocomplete function is deactivated by default.
 http://git.emojione.com/demos/2.1.4/autocomplete.html  
 To activate it, edit `emojione.php`:
 ```
-/* 
+/*
 * Uncomment the three lines below to use the autocomplete function.
 * If your theme use jquery, let the first line commented.
 */
