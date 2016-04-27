@@ -18,6 +18,11 @@ To activate it, edit `js/emojione.js`:
 ```
 emojione.ascii = false; /* change to 'true' to have ASCII conversion */
 ```
+SVG is the default format for emojis.
+If you prefer PNG, edit `js/emojione.js`:
+```
+emojione.imageType = 'svg'; /* change to 'png' to have emojis in PNG */
+```
 
 The autocomplete function is deactivated by default.  
 http://git.emojione.com/demos/2.1.4/autocomplete.html  
