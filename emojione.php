@@ -15,7 +15,7 @@ function hook_emojione_render_footer($data)
 * Uncomment the three lines below to use the autocomplete function.
 * If your theme use jquery, let the first line commented.
 */
-#    $data['js_files'][] = PluginManager::$PLUGINS_PATH . '/emojione/js/zepto.min.js';
+#    $data['js_files'][] = PluginManager::$PLUGINS_PATH . '/emojione/js/jquery.min.js';
 #    $data['js_files'][] = PluginManager::$PLUGINS_PATH . '/emojione/js/textcomplete.min.js';
 #    $data['js_files'][] = PluginManager::$PLUGINS_PATH . '/emojione/js/autocomplete.js';
 
