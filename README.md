@@ -25,6 +25,6 @@ To activate it, edit `emojione.php`:
 ```
     /* Uncomment the three lines below to use the autocomplete function */
 //    $data['js_files'][] = PluginManager::$PLUGINS_PATH . '/emojione/js/zepto.min.js';
-//    $data['js_files'][] = PluginManager::$PLUGINS_PATH . '/emojione/js/jquery.textcomplete.min.js';
+//    $data['js_files'][] = PluginManager::$PLUGINS_PATH . '/emojione/js/textcomplete.min.js';
 //    $data['js_files'][] = PluginManager::$PLUGINS_PATH . '/emojione/js/autocomplete.js';
 ```
