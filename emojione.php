@@ -9,6 +9,7 @@ function hook_emojione_render_includes($data)
 function hook_emojione_render_footer($data)
 {
     $data['js_files'][] = PluginManager::$PLUGINS_PATH . '/emojione/js/emojione.min.js';
+    $data['js_files'][] = PluginManager::$PLUGINS_PATH . '/emojione/js/unicode.js';
     $data['js_files'][] = PluginManager::$PLUGINS_PATH . '/emojione/js/emojione.js';
 
 /*
