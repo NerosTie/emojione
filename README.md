@@ -1,4 +1,4 @@
-# shaarli-plugin-emojione
+# Shaarli Plugin Emojione
 Add colorful emojis to your Shaarli
 
 # Installation
@@ -38,3 +38,10 @@ To activate it, edit `emojione.php`:
 #        $data['js_files'][] = PluginManager::$PLUGINS_PATH . '/emojione/assets/js/autocomplete.js';
 #    }
 ```
+
+# Compatibility
+
+The plugin and the options are fully compatible with these themes:
+* Default
+* Material (https://github.com/kalvn/Shaarli-Material)
+* AlbinoMouse (https://github.com/alexisju/albinomouse-template)
