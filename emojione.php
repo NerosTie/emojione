@@ -13,8 +13,8 @@ function hook_emojione_render_includes($data)
 function hook_emojione_render_footer($data)
 {
     /*
-     * Uncomment the three lines below to use the autocomplete function.
-     * If your theme use jquery, let the first line commented.
+     * Uncomment the five lines below to use the autocomplete function.
+     * If your theme use jquery, let the second line commented.
      */
 #    if($data['_PAGE_'] === Router::$PAGE_EDITLINK){
 #        $data['js_files'][] = PluginManager::$PLUGINS_PATH . '/emojione/assets/js/jquery.min.js';
