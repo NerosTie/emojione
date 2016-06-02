@@ -1,7 +1,7 @@
 <?php
 function hook_emojione_render_includes($data)
 {
-    $data['css_files'][] = PluginManager::$PLUGINS_PATH . '/emojione/css/emojione.css';
+    $data['css_files'][] = PluginManager::$PLUGINS_PATH . '/emojione/assets/css/emojione.css';
 
     if($data['_PAGE_'] === Router::$PAGE_EDITLINK){
         $data['css_files'][] = PluginManager::$PLUGINS_PATH . '/emojione/assets/css/autocomplete.css';
