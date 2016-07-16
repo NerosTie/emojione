@@ -1,14 +1,14 @@
 .emojione {  
-  display: inline-block;
-  line-height: normal;
-  font-size: inherit;
-  vertical-align: middle;
-  position: relative;
-  width: 1.1em;
-  height: 1.1em;
-  top: -0.1em;
+    display: inline-block;
+    line-height: normal;
+    font-size: inherit;
+    vertical-align: middle;
+    position: relative;
+    width: 1.1em;
+    height: 1.1em;
+    top: -0.1em;
 }
 
 img.emojione {
-  width: auto;
+    width: auto;
 }
