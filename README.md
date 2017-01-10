@@ -1,5 +1,5 @@
 # Shaarli Plugin Emojione
-Add colorful emojis to your Shaarli
+Add colorful emojis to your Shaarli.
 
 # Installation
 ```
