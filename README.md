@@ -13,7 +13,7 @@ Then activate the new plugin.
 
 # Options
 ASCII Smiley is deactivated by default.  
-http://git.emojione.com/demos/2.2.0/ascii-smileys.html  
+http://git.emojione.com/demos/latest/ascii-smileys.html  
 To activate it, edit `assets/js/emojione.js`:
 ```
 emojione.ascii = false; /* change to 'true' to have ASCII conversion */
@@ -25,7 +25,7 @@ emojione.imageType = 'svg'; /* change to 'png' to have emojis in PNG */
 ```
 
 The autocomplete function is deactivated by default.  
-http://git.emojione.com/demos/2.2.0/autocomplete.html  
+http://git.emojione.com/demos/latest/autocomplete.html  
 To activate it, edit `emojione.php`:
 ```
     /*
